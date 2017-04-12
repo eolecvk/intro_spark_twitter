@@ -1,5 +1,4 @@
 
-import csv
 
 
 def jsonfiles_to_json(indir_path, outfile_path):
@@ -56,7 +55,7 @@ def jsonfiles_to_json(indir_path, outfile_path):
 
 
 
-def json_to_csv(dirpath, tsvpath):
+def jsonfiles_to_csv(dirpath, tsvpath):
     """
     inputs:
         + dirpath : full path of dir that contains the tweets .json file
@@ -64,6 +63,8 @@ def json_to_csv(dirpath, tsvpath):
     Compiles a collection of tweets as a tsv file.
     The tweet fields that are kept include: `user_id`, `tweet_id`, and `tweet_text`
     """
+    import os
+    import csv
 
     # Generate list of tweet file full paths
     fpaths = [os.path.join(dirpath, fname) for fname in os.listdir(dirpath)]
@@ -80,7 +81,11 @@ def json_to_csv(dirpath, tsvpath):
 
             tweet_id = tweet['id']
             user_id = tweet['user']['id']
-            text = tweet['text'].replace('\n',' ').replace('\t',' ')
+            text = (tweet['text']
+                .replace('\n',' ')
+                .replace('\t',' ')
+                .replace('\r',' ')
+                .replace('"',' '))
 
             new_record = (tweet_id, user_id, text)
             result.append(new_record)
@@ -94,39 +99,12 @@ def json_to_csv(dirpath, tsvpath):
         wr = csv.writer(fp, delimiter='\t')
         wr.writerows(result)
 
-    # Print log
-    records_tsv = []
-    tweet_ids_tsv = []
-    user_ids_tsv = []
-
-    with open(tsvpath, 'r') as fp:
-        rd = csv.reader(fp, delimiter='\t')
-
-        for record in rd:
-            records_tsv.append(record)
-            tweet_ids_tsv.append(record[0])
-            user_ids_tsv.append(record[1])
-
-    count_records_tsv = len(records_tsv)
-    count_distinct_tweet_ids_tsv = len(set(tweet_ids_tsv))
-    count_distinct_user_ids_tsv = len(set(user_ids_tsv))
-
-    print("IN TSV:")
-    print(count_records_tsv, count_distinct_tweet_ids_tsv, count_distinct_user_ids_tsv)
-
-    count_records_actual = len(result)
-    count_distinct_tweet_ids_actual = len(set([record[0] for record in result]))
-    count_distinct_user_ids_actual = len(set([record[1] for record in result]))
-
-    print("ACTUAL:")
-    print(count_records_actual, count_distinct_tweet_ids_actual, count_distinct_user_ids_actual)
+# -----------------------------------------------------------------------
 
 
 if __name__ == "__main__":
 
-    dirpath = "/home/eolus/Documents/poc_data/tweets"
-    tsvpath = "/home/eolus/Desktop/tweets.tsv"
+    dirpath = "FULL/PATH/TO/INPUT/TWEET/DIR"
+    outpath = "FULL/PATH/TO/OUTPUT/JSON/FILE"
 
-    #json_to_csv(dirpath, tsvpath)
-
-    jsonfiles_to_json(dirpath, "/home/eolus/Desktop/tweets.json")
+    jsonfiles_to_json(dirpath, outpath)
