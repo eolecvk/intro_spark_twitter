@@ -1,14 +1,19 @@
-# Introduction to text analysis with PySpark using Twitter data
+# Introduction to text analysis with Spark using Twitter data
 
-Objective:
-_Using the Spark Python API (PySpark) in a Databricks notebook environment to perform some basic text mining._
+Objectives:
+
+1. To learn about the Spark framework
+2. To become familiar with the Databricks notebook environment
+3. To implement text mining techniques
+4. To work with social media data
+
 
 ***************************************************************************************
 
 **PLAN**
 
 
-1. Data overview
+1. Overview of the relevant data objects and structures
     + Tweet object
     + JSON format
     + Spark DataFrame
