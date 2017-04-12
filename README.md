@@ -13,31 +13,45 @@ Objectives:
 **PLAN**
 
 
-1. Overview of the relevant data objects and structures, [[link](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_overview.ipynb)]
+1. Overview of the relevant data objects and structures, [
+[Git](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_overview.ipynb) |
+[Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3923635548890252/3963252404083091/4930913221861820/latest.html)
+]
     + Tweet object
     + JSON format
     + Spark DataFrame
     + Databricks table
     
-2. Sourcing, [[link](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_sourcing.ipynb)]
+2. Sourcing, [
+[Git](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_sourcing.ipynb) | 
+[Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3923635548890252/3963252404083100/4930913221861820/latest.html)
+]
     + (prior) Get Twitter data using the REST API
     + (prior) Aggregate tweet collection as a single JSON file
     + (prior) Upload the JSON source file to a Databricks table 
     + Create dataframe from Databricks table
     
-3. Exploration, [[link](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_exploration.ipynb)]
+3. Exploration, [
+[Git](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_exploration.ipynb) | 
+[Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3923635548890252/3963252404083096/4930913221861820/latest.html)]
    + Show dataframe, print schema
    + Basic sql queries
    + User tweet frequency bar graph
    + Count tweets containing a given keyword
 
-4. Preparation, [[link](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_preparation.ipynb)]
-   + tokenization (unigram, bigram, ...)
+4. Preparation, [
+[Git](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_preparation.ipynb) | 
+[Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3923635548890252/1357850364289680/4930913221861820/latest.html)
+]
+   + tokenization
    + stop word removal
-   + lemmatization (stemming, synonym expansion)
+   + Stemming
+   + N-Grams
 
-5. Analysis, SOON!!
-   + Clustering?
+5. Analysis (available soon!)
+   + Principal Component Analysis
+   + Cluster analysis
+   + ..
 
 
 ***************************************************************************************
