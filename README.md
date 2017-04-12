@@ -31,7 +31,7 @@ Objectives:
    + User tweet frequency bar graph
    + Count tweets containing a given keyword
 
-4. Preparation, [[link]()]
+4. Preparation, [[link](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_preparation.ipynb)]
    + tokenization (unigram, bigram, ...)
    + stop word removal
    + lemmatization (stemming, synonym expansion)
