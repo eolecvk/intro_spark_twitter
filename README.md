@@ -13,31 +13,32 @@ Objectives:
 **PLAN**
 
 
-1. Overview of the relevant data objects and structures
+1. Overview of the relevant data objects and structures, [[link](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_overview.ipynb)]
     + Tweet object
     + JSON format
     + Spark DataFrame
     + Databricks table
     
-2. Data sourcing
+2. Sourcing, [[link](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_sourcing.ipynb)]
     + (prior) Get Twitter data using the REST API
     + (prior) Aggregate tweet collection as a single JSON file
     + (prior) Upload the JSON source file to a Databricks table 
     + Create dataframe from Databricks table
     
-3. Data exploration
+3. Exploration, [[link](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_exploration.ipynb)]
    + Show dataframe, print schema
    + Basic sql queries
    + User tweet frequency bar graph
    + Count tweets containing a given keyword
 
-4. Text preprocessing
+4. Preparation, [[link]()]
    + tokenization (unigram, bigram, ...)
    + stop word removal
    + lemmatization (stemming, synonym expansion)
 
-5. Text analysis
+5. Analysis, SOON!!
    + Clustering?
+
 
 ***************************************************************************************
 **Doc & programming guides**
