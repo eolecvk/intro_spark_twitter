@@ -1,0 +1,101 @@
+{
+  "coordinates": null,
+  "truncated": false,
+  "geo": null,
+  "user": {
+    "description": "Healthy, happy hair & skin - naturally! Our core moisture products are available at select Target & Sally Beauty stores: full line/exteded sizes @ our site!",
+    "contributors_enabled": false,
+    "statuses_count": 14131,
+    "profile_background_color": "CB5B26",
+    "translator_type": "none",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/403505625/oyin_twitter_bg.jpg",
+    "has_extended_profile": false,
+    "id": 15719559,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/772470166173155328/O206Cnj6_normal.jpg",
+    "utc_offset": -18000,
+    "screen_name": "oyinhandmade",
+    "is_translator": false,
+    "friends_count": 5054,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/772470166173155328/O206Cnj6_normal.jpg",
+    "url": "https://t.co/7UrgJxM1Et",
+    "default_profile": false,
+    "protected": false,
+    "created_at": "Mon Aug 04 07:38:24 +0000 2008",
+    "time_zone": "Eastern Time (US & Canada)",
+    "profile_background_tile": false,
+    "profile_text_color": "000000",
+    "geo_enabled": false,
+    "notifications": null,
+    "profile_sidebar_border_color": "87BC44",
+    "name": "oyin handmade",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/403505625/oyin_twitter_bg.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15719559/1474943452",
+    "verified": false,
+    "followers_count": 16144,
+    "profile_use_background_image": true,
+    "profile_sidebar_fill_color": "E0FF92",
+    "default_profile_image": false,
+    "following": null,
+    "is_translation_enabled": false,
+    "profile_link_color": "FAB81E",
+    "favourites_count": 2726,
+    "listed_count": 436,
+    "entities": {
+      "description": {
+        "urls": []
+      },
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/7UrgJxM1Et",
+            "display_url": "oyinhandmade.com",
+            "indices": [
+              0,
+              23
+            ],
+            "expanded_url": "http://www.oyinhandmade.com"
+          }
+        ]
+      }
+    },
+    "follow_request_sent": null,
+    "id_str": "15719559",
+    "location": "baltimore",
+    "lang": "en"
+  },
+  "favorited": false,
+  "id": 517024476404670464,
+  "text": "We are gearing up for another awesome event at the Exittheapple Art Space! Vendor inquiries email... http://t.co/Pob0dxq6mv",
+  "lang": "en",
+  "retweet_count": 0,
+  "in_reply_to_status_id_str": null,
+  "id_str": "517024476404670464",
+  "in_reply_to_user_id": null,
+  "created_at": "Tue Sep 30 18:53:35 +0000 2014",
+  "favorite_count": 0,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "is_quote_status": false,
+  "contributors": null,
+  "in_reply_to_status_id": null,
+  "place": null,
+  "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+  "in_reply_to_screen_name": null,
+  "in_reply_to_user_id_str": null,
+  "entities": {
+    "urls": [
+      {
+        "url": "http://t.co/Pob0dxq6mv",
+        "display_url": "fb.me/6M4jwh7Id",
+        "indices": [
+          101,
+          123
+        ],
+        "expanded_url": "http://fb.me/6M4jwh7Id"
+      }
+    ],
+    "user_mentions": [],
+    "symbols": [],
+    "hashtags": []
+  }
+}
