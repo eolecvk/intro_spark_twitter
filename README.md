@@ -13,7 +13,10 @@ Objectives:
 **PLAN**
 
 
-1. Overview of the relevant data objects and structures, [[link](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_overview.ipynb)]
+1. Overview of the relevant data objects and structures, [
+[Git](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_overview.ipynb)|
+[Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3923635548890252/3963252404083091/4930913221861820/latest.html)
+]
     + Tweet object
     + JSON format
     + Spark DataFrame
