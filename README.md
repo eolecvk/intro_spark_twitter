@@ -24,9 +24,9 @@ Objectives:
 2. Sourcing, [
 [Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3923635548890252/3963252404083100/4930913221861820/latest.html)
 ]
-    + (prior) Get Twitter data using the REST API
-    + (prior) Aggregate tweet collection as a single JSON file
-    + (prior) Upload the JSON source file to a Databricks table 
+    + Get Twitter data using the REST API (prior)
+    + Aggregate tweet collection as a single JSON file (prior)
+    + Upload the JSON source file to a Databricks table 
     + Create dataframe from Databricks table
     
 3. Exploration, [
