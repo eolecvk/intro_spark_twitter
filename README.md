@@ -16,7 +16,7 @@ Objectives:
 1. Overview of the relevant data objects and structures, [
 [Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3923635548890252/3963252404083091/4930913221861820/latest.html)
 ]
-    + Tweet object ((sample)[https://github.com/eolecvk/intro_spark_twitter/blob/master/data/tweet_sample.json])
+    + Tweet object ([sample](https://github.com/eolecvk/intro_spark_twitter/blob/master/data/tweet_sample.json))
     + JSON format
     + Spark DataFrame
     + Databricks table
