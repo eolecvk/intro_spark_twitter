@@ -16,7 +16,7 @@ Objectives:
 1. Overview of the relevant data objects and structures, [
 [Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3923635548890252/3963252404083091/4930913221861820/latest.html)
 ]
-    + Tweet object
+    + Tweet object ((sample)[https://github.com/eolecvk/intro_spark_twitter/blob/master/data/tweet_sample.json])
     + JSON format
     + Spark DataFrame
     + Databricks table
@@ -24,16 +24,11 @@ Objectives:
 2. Sourcing, [
 [Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3923635548890252/3963252404083100/4930913221861820/latest.html)
 ]
-<<<<<<< HEAD
 
     + Define relevant search parameter or make a random search.
-    + Get tweets using the [REST API](https://dev.twitter.com/rest/public)(prior)
-    + Aggregate tweets to this [single JSON source file](https://github.com/eolecvk/intro_spark_twitter/blob/master/data/tweets.json) with [this script](https://github.com/eolecvk/intro_spark_twitter/blob/master/utils/json_aggregator.py)) (prior)
+    + Get tweets using the [REST API](https://dev.twitter.com/rest/public) (prior)
+    + Aggregate tweets to this [single JSON source file](https://github.com/eolecvk/intro_spark_twitter/blob/master/data/tweets.json) with [this script](https://github.com/eolecvk/intro_spark_twitter/blob/master/utils/json_aggregator.py) (prior)
     + _Export to S3_
-=======
-    + Get Twitter data using the REST API (prior)
-    + Aggregate tweet collection as a single JSON file (prior)
->>>>>>> 477d2999e4e273531893a7173c0f68a4ec9e4f4e
     + Upload the JSON source file to a Databricks table 
     + Create dataframe from Databricks table
     
