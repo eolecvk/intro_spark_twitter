@@ -26,9 +26,12 @@ Objectives:
 [Git](https://github.com/eolecvk/intro_spark_twitter/blob/master/notebooks/data_sourcing.ipynb) | 
 [Databricks](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3923635548890252/3963252404083100/4930913221861820/latest.html)
 ]
-    + (prior) Get Twitter data using the REST API
-    + (prior) Aggregate tweet collection as a single JSON file
-    + (prior) Upload the JSON source file to a Databricks table 
+
+    + Define relevant search parameter or make a random search.
+    + Get tweets using the [REST API](https://dev.twitter.com/rest/public)(prior)
+    + Aggregate tweets to this [single JSON source file](https://github.com/eolecvk/intro_spark_twitter/blob/master/data/tweets.json) with [this script](https://github.com/eolecvk/intro_spark_twitter/blob/master/utils/json_aggregator.py)) (prior)
+    + _Export to S3_
+    + Upload the JSON source file to a Databricks table 
     + Create dataframe from Databricks table
     
 3. Exploration, [
